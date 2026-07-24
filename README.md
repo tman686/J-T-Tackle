@@ -1,2 +1,2 @@
-# J-T-Tackle
+# J&T-Tackle
 Fishing Lure Company
