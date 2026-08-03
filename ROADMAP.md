@@ -25,9 +25,11 @@ The minimum viable operating system for a soft-plastics manufacturer.
 | 5 | Brand design system (palette, type, voice) | ✅ |
 | 6 | Architecture doc + future-ready monorepo layout | ✅ |
 | 7 | GitHub standards (CI, issue/PR templates, CODEOWNERS) | ✅ |
-| 8 | Live Postgres + Prisma migrations wired to the site | 🔜 |
-| 9 | Stripe checkout for direct-to-consumer sales | 🔜 |
-| 10 | Auth (Clerk/BetterAuth) + customer dashboard | 🔜 |
+| 8 | Pricing & unit-economics engine (cost/bait, margins, wholesale, break-even) | ✅ |
+| 9 | Company financial model / path-to-profitability doc | ✅ |
+| 10 | Live Postgres + Prisma migrations wired to the site | 🔜 |
+| 11 | Stripe checkout for direct-to-consumer sales | 🔜 |
+| 12 | Auth (Clerk/BetterAuth) + customer dashboard | 🔜 |
 
 ## Phase 2 — Commerce & Operations
 

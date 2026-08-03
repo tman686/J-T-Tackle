@@ -23,6 +23,8 @@ and prioritized in [`ROADMAP.md`](ROADMAP.md).
 | "Find My Lure" selector tool | [`apps/website/src/app/find-my-lure`](apps/website/src/app/find-my-lure) | ✅ Working |
 | Soft-plastic product catalog + data model | [`apps/website/src/data`](apps/website/src/data) | ✅ Working |
 | Manufacturing domain database schema (Prisma) | [`packages/database`](packages/database) | ✅ Schema + seed |
+| Pricing & unit-economics engine (cost/bait, margins, wholesale) | [`packages/pricing`](packages/pricing) | ✅ Tested |
+| Company financial model / path to profitability | [`docs/UNIT-ECONOMICS.md`](docs/UNIT-ECONOMICS.md) | ✅ Written |
 | Architecture & design system docs | [`docs`](docs) | ✅ Written |
 | Full company build roadmap ("build later" backlog) | [`ROADMAP.md`](ROADMAP.md) | ✅ Written |
 | GitHub standards (CI, templates, CODEOWNERS) | [`.github`](.github) | ✅ Configured |
@@ -47,6 +49,7 @@ apps/
   website          # Customer-facing brand + storefront (Next.js)
 packages/
   database         # Prisma schema: lures, molds, plastisol, colors, inventory, QC
+  pricing          # Unit-economics engine: cost/bait, margins, wholesale, break-even
 docs/
   ARCHITECTURE.md  # System design & the full app/service map (future-ready)
   DESIGN-SYSTEM.md # Brand palette, typography, voice
@@ -72,6 +75,9 @@ npm run build
 
 # Validate the manufacturing database schema
 npm run db:validate
+
+# Run the pricing / unit-economics tests
+npm run pricing:test
 ```
 
 > The website runs with sample seed data and needs no database or secrets to
