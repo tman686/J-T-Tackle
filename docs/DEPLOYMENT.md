@@ -17,16 +17,19 @@ service first and wire the database when ready.
      `?pgbouncer=true&connection_limit=1`.
    - **Direct connection** (port `5432`) → this is `DIRECT_URL` (used for
      migrations).
-3. **Apply the schema.** From your machine, with both values in
+3. **Apply the schema.** A baseline migration is already committed at
+   `packages/database/prisma/migrations/0000_init`, so a fresh database stands
+   up with one command. From your machine, with both values in
    `packages/database/.env`:
    ```bash
    npm install
-   npm run db:generate --workspace @jt/database
-   npm run migrate:deploy --workspace @jt/database   # or: db:push for first cut
-   npm run seed --workspace @jt/database              # optional sample data
+   npm run db:generate  --workspace @jt/database   # generate Prisma client
+   npm run migrate:deploy --workspace @jt/database  # apply the committed migration
+   npm run seed         --workspace @jt/database    # load the launch catalog
    ```
-   `db:push` is the fastest way to stamp the current schema onto a fresh
-   database; use `migrate:dev` locally to start tracking migrations properly.
+   The seed loads the same 6 lures, 6 families, 10 colors, and their variants
+   that the storefront shows, so the database matches the live site. It is
+   idempotent — safe to re-run.
 
 > The Prisma datasource is already configured for Supabase: pooled `DATABASE_URL`
 > at runtime, `DIRECT_URL` for migrations (`packages/database/prisma/schema.prisma`).
