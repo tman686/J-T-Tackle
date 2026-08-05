@@ -27,6 +27,7 @@ and prioritized in [`ROADMAP.md`](ROADMAP.md).
 | Company financial model / path to profitability | [`docs/UNIT-ECONOMICS.md`](docs/UNIT-ECONOMICS.md) | ✅ Written |
 | Architecture & design system docs | [`docs`](docs) | ✅ Written |
 | Full company build roadmap ("build later" backlog) | [`ROADMAP.md`](ROADMAP.md) | ✅ Written |
+| Deployment config (Render Blueprint + Supabase wiring) | [`render.yaml`](render.yaml) · [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) | ✅ Ready to deploy |
 | GitHub standards (CI, templates, CODEOWNERS) | [`.github`](.github) | ✅ Configured |
 
 ## Company focus (Phase 1)

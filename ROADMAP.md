@@ -27,9 +27,10 @@ The minimum viable operating system for a soft-plastics manufacturer.
 | 7 | GitHub standards (CI, issue/PR templates, CODEOWNERS) | ✅ |
 | 8 | Pricing & unit-economics engine (cost/bait, margins, wholesale, break-even) | ✅ |
 | 9 | Company financial model / path-to-profitability doc | ✅ |
-| 10 | Live Postgres + Prisma migrations wired to the site | 🔜 |
-| 11 | Stripe checkout for direct-to-consumer sales | 🔜 |
-| 12 | Auth (Clerk/BetterAuth) + customer dashboard | 🔜 |
+| 10 | Deployment config — Render Blueprint + Supabase Prisma wiring | ✅ |
+| 11 | Live Postgres (Supabase) + migrations applied to prod | 🚧 |
+| 12 | Stripe checkout for direct-to-consumer sales | 🔜 |
+| 13 | Auth (Clerk/BetterAuth) + customer dashboard | 🔜 |
 
 ## Phase 2 — Commerce & Operations
 
