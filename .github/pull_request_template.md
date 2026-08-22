@@ -21,4 +21,4 @@
 - [ ] Schema validates if touched (`npm run db:validate`)
 - [ ] Docs / ROADMAP updated if scope changed
 - [ ] No secrets committed
-- [ ] All designs and content are original to J & T Tackle
+- [ ] All designs and content are original to T&J's Tackle

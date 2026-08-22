@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Dealer Program",
   description:
-    "Stock J & T Tackle original soft plastics in your shop. Wholesale pricing, marketing assets, and restock support for tackle shops and guides.",
+    "Stock T&J's Tackle original soft plastics in your shop. Wholesale pricing, marketing assets, and restock support for tackle shops and guides.",
 };
 
 const perks = [
@@ -20,7 +20,7 @@ export default function DealersPage() {
       <p className="eyebrow">For retailers &amp; guides</p>
       <h1 className="mt-2 text-4xl text-navy">Dealer Program</h1>
       <p className="mt-3 max-w-2xl text-ink/70">
-        Carry a soft-plastics line that stands out on the peg. J &amp; T Tackle
+        Carry a soft-plastics line that stands out on the peg. T&amp;J&apos;s Tackle
         products are original designs, poured in-house, with the quality and
         story your customers want.
       </p>

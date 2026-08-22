@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: lure.name,
     description: lure.tagline,
-    openGraph: { title: `${lure.name} · J & T Tackle`, description: lure.tagline },
+    openGraph: { title: `${lure.name} · T&J's Tackle`, description: lure.tagline },
   };
 }
 
@@ -43,7 +43,7 @@ export default function LurePage({ params }: { params: { slug: string } }) {
     name: lure.name,
     sku: lure.sku,
     description: lure.description,
-    brand: { "@type": "Brand", name: "J & T Tackle" },
+    brand: { "@type": "Brand", name: "T&J's Tackle" },
     offers: {
       "@type": "Offer",
       price: (lure.priceCents / 100).toFixed(2),

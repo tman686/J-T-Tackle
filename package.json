@@ -2,7 +2,7 @@
   "name": "jt-tackle",
   "version": "0.1.0",
   "private": true,
-  "description": "J & T Tackle — the operating system for a soft-plastic fishing lure company. Phase 1 foundation.",
+  "description": "T&J's Tackle — the operating system for a soft-plastic fishing lure company. Phase 1 foundation.",
   "license": "UNLICENSED",
   "workspaces": [
     "apps/*",

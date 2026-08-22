@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Palette sourced from the J & T Tackle crest — see docs/DESIGN-SYSTEM.md
+        // Palette sourced from the T&J's Tackle crest — see docs/DESIGN-SYSTEM.md
         navy: {
           DEFAULT: "#0d2438",
           700: "#123a5a",

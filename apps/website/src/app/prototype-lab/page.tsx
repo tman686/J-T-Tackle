@@ -5,7 +5,7 @@ import { lures } from "@/data/lures";
 export const metadata: Metadata = {
   title: "Prototype Lab",
   description:
-    "Inside the J & T Tackle Prototype Lab — how original soft-plastic lures go from sketch to CAD to mold to field test to production.",
+    "Inside the T&J's Tackle Prototype Lab — how original soft-plastic lures go from sketch to CAD to mold to field test to production.",
 };
 
 const pipeline = [

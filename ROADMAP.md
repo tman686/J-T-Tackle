@@ -1,4 +1,4 @@
-# J & T Tackle — Master Roadmap
+# T&J's Tackle — Master Roadmap
 
 This roadmap captures the **full company vision** from the founding brief
 (Projects Titan / Leviathan / Poseidon) and turns it into a prioritized,

@@ -2,7 +2,7 @@
   "name": "@jt/database",
   "version": "0.1.0",
   "private": true,
-  "description": "Canonical manufacturing + commerce data model for J & T Tackle (Prisma).",
+  "description": "Canonical manufacturing + commerce data model for T&J's Tackle (Prisma).",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "scripts": {

@@ -1,4 +1,4 @@
-// J & T Tackle — canonical data model
+// T&J's Tackle — canonical data model
 // Manufacturing-first: the catalog is a view over engineering + production data.
 //
 // This schema is the Phase 1 backbone. It is validated in CI (`prisma validate`).

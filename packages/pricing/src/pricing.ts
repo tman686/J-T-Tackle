@@ -1,5 +1,5 @@
 /**
- * J & T Tackle — unit-economics & pricing engine.
+ * T&J's Tackle — unit-economics & pricing engine.
  *
  * Manufacturing-first pricing: a lure's price should be driven by its true cost
  * to produce (plastisol, salt, colorant, mold amortization, labor, packaging,

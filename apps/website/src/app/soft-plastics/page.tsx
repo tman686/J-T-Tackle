@@ -5,7 +5,7 @@ import { SoftPlasticsBrowser } from "@/components/SoftPlasticsBrowser";
 export const metadata: Metadata = {
   title: "Soft Plastics",
   description:
-    "Browse J & T Tackle original soft-plastic lures — craws, worms, swimbaits, creatures, and saltwater baits. Filter by water, category, and species.",
+    "Browse T&J's Tackle original soft-plastic lures — craws, worms, swimbaits, creatures, and saltwater baits. Filter by water, category, and species.",
 };
 
 export default function SoftPlasticsPage() {

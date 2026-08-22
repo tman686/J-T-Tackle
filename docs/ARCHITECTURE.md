@@ -1,4 +1,4 @@
-# J & T Tackle — Architecture
+# T&J's Tackle — Architecture
 
 ## Guiding idea
 

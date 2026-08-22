@@ -1,4 +1,4 @@
-# J & T Tackle — Unit Economics & Path to Profitability
+# T&J's Tackle — Unit Economics & Path to Profitability
 
 This is the financial backbone of the company. It is not marketing copy — the
 numbers below are produced by the pricing engine in

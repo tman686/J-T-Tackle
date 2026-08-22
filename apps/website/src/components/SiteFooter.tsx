@@ -35,8 +35,8 @@ export function SiteFooter() {
       <div className="container-page grid gap-10 py-14 md:grid-cols-[1.4fr_repeat(3,1fr)]">
         <div>
           <Image
-            src="/brand/jt-tackle-logo.png"
-            alt="J & T Tackle"
+            src="/brand/tj-tackle-logo.png"
+            alt="T&amp;J&apos;s Tackle"
             width={200}
             height={106}
             className="h-20 w-auto rounded-lg bg-parchment/95 p-1"
@@ -68,7 +68,7 @@ export function SiteFooter() {
 
       <div className="border-t border-parchment/10">
         <div className="container-page flex flex-col items-center justify-between gap-2 py-5 text-xs text-parchment/60 sm:flex-row">
-          <p>© {new Date().getFullYear()} J &amp; T Tackle. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} T&amp;J&apos;s Tackle. All rights reserved.</p>
           <p>For Freshwater &amp; Saltwater · Quality Fishing Gear &amp; Equipment</p>
         </div>
       </div>

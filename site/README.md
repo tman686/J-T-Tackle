@@ -1,6 +1,6 @@
-# J & T Tackle — standalone website (`site/index.html`)
+# T&J's Tackle — standalone website (`site/index.html`)
 
-A **single, self-contained** web page for the J & T Tackle storefront. The logo
+A **single, self-contained** web page for the T&J's Tackle storefront. The logo
 is embedded (no external files), all CSS/JS is inline, and the only external
 request is Google Fonts. It works opened directly from disk, hosted anywhere, or
 embedded in **Google Sites**.

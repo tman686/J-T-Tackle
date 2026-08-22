@@ -1,6 +1,6 @@
 # @jt/database
 
-The canonical data model for J & T Tackle — manufacturing-first.
+The canonical data model for T&J's Tackle — manufacturing-first.
 
 The website (Phase 1) reads a typed sample catalog that mirrors these models, so
 moving to a live database in Phase 2 is a data-source swap, not a rewrite.

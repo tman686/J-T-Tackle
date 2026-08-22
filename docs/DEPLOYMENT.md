@@ -1,6 +1,6 @@
-# J & T Tackle — Deployment (Render + Supabase)
+# T&J's Tackle — Deployment (Render + Supabase)
 
-This guide takes J & T Tackle live: **Supabase** for the Postgres database and
+This guide takes T&J's Tackle live: **Supabase** for the Postgres database and
 **Render** for the Next.js web service. The site boots and serves the full
 storefront with or without a database connected, so you can deploy the web
 service first and wire the database when ready.

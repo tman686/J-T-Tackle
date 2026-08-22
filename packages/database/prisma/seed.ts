@@ -1,5 +1,5 @@
 /**
- * Seed the J & T Tackle database with the launch catalog.
+ * Seed the T&J's Tackle database with the launch catalog.
  *
  * Mirrors apps/website/src/data/lures.ts so a freshly migrated Supabase database
  * matches the live storefront. Idempotent — safe to run repeatedly (upserts on

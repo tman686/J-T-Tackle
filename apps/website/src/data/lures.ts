@@ -1,9 +1,9 @@
 /**
- * Sample soft-plastic catalog for J & T Tackle.
+ * Sample soft-plastic catalog for T&J's Tackle.
  * Mirrors the Lure model in packages/database/prisma/schema.prisma so the site
  * runs with no database in Phase 1. Swap this module for a DB query in Phase 2.
  *
- * All designs, names, and colors are original to J & T Tackle.
+ * All designs, names, and colors are original to T&J's Tackle.
  */
 
 export type WaterType = "Freshwater" | "Saltwater" | "Both";

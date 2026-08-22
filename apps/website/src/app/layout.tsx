@@ -21,25 +21,25 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jttackle.com"),
   title: {
-    default: "J & T Tackle — Original Soft-Plastic Fishing Lures",
-    template: "%s · J & T Tackle",
+    default: "T&J's Tackle — Original Soft-Plastic Fishing Lures",
+    template: "%s · T&J's Tackle",
   },
   description:
-    "J & T Tackle designs and manufactures original soft-plastic fishing lures for freshwater and saltwater. Built by anglers, engineered for the bite. Est. 2023.",
+    "T&J's Tackle designs and manufactures original soft-plastic fishing lures for freshwater and saltwater. Built by anglers, engineered for the bite. Est. 2023.",
   keywords: [
     "soft plastic lures",
     "fishing lures",
     "bass lures",
     "saltwater lures",
-    "J & T Tackle",
+    "T&J's Tackle",
     "custom color plastics",
   ],
   openGraph: {
-    title: "J & T Tackle — Original Soft-Plastic Fishing Lures",
+    title: "T&J's Tackle — Original Soft-Plastic Fishing Lures",
     description:
       "Original soft-plastic lures for freshwater & saltwater. Manufactured, not resold. Est. 2023.",
     type: "website",
-    images: ["/brand/jt-tackle-logo.png"],
+    images: ["/brand/tj-tackle-logo.png"],
   },
 };
 

@@ -1,14 +1,14 @@
-# J & T Tackle
+# T&J's Tackle
 
 **For Freshwater & Saltwater · Quality Fishing Gear & Equipment · Est. 2023**
 
-![J & T Tackle](apps/website/public/brand/jt-tackle-logo.png)
+![T&J's Tackle](apps/website/public/brand/tj-tackle-logo.png)
 
-J & T Tackle is a soft-plastic fishing lure company built like a **manufacturing
+T&J's Tackle is a soft-plastic fishing lure company built like a **manufacturing
 company first** — e-commerce, product engineering, mold management, plastisol
 formulation, and inventory integrated from day one.
 
-This repository is the beginning of the **J & T Tackle operating system**. It is
+This repository is the beginning of the **T&J's Tackle operating system**. It is
 intentionally scoped to a solid, production-ready **Phase 1 foundation** rather
 than a half-finished sprawl of empty apps. Everything beyond Phase 1 is captured
 and prioritized in [`ROADMAP.md`](ROADMAP.md).
@@ -99,7 +99,7 @@ Every feature in this repo answers at least one of these:
 
 ## License & IP
 
-All designs, brand assets, and product concepts are original to J & T Tackle.
+All designs, brand assets, and product concepts are original to T&J's Tackle.
 This code is proprietary and unlicensed for redistribution.
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for development standards.

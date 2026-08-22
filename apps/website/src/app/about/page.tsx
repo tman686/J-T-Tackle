@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "J & T Tackle is a builder-owned soft-plastic lure company for freshwater and saltwater. Original designs, molded and poured in-house since 2023.",
+    "T&J's Tackle is a builder-owned soft-plastic lure company for freshwater and saltwater. Original designs, molded and poured in-house since 2023.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
           <p className="eyebrow">Est. 2023</p>
           <h1 className="mt-2 text-4xl text-navy">Built by anglers, poured in-house.</h1>
           <p className="mt-4 text-ink/75">
-            J &amp; T Tackle started with a simple idea: don&apos;t re-sell someone
+            T&amp;J&apos;s Tackle started with a simple idea: don&apos;t re-sell someone
             else&apos;s baits — design and manufacture original soft plastics that
             catch fish in the water we actually fish. Freshwater and saltwater,
             from the bass pond to the flats.
@@ -29,8 +29,8 @@ export default function AboutPage() {
         </div>
         <div className="rounded-2xl bg-parchment/70 p-6 shadow-crest ring-1 ring-navy/10">
           <Image
-            src="/brand/jt-tackle-logo.png"
-            alt="J & T Tackle crest"
+            src="/brand/tj-tackle-logo.png"
+            alt="T&amp;J&apos;s Tackle crest"
             width={720}
             height={380}
             className="h-auto w-full rounded-xl"

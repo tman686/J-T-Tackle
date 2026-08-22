@@ -1,4 +1,4 @@
-# J & T Tackle — Brand & Design System
+# T&J's Tackle — Brand & Design System
 
 The visual identity is drawn directly from the company crest: a vintage,
 hand-illustrated badge with a largemouth bass, a mahi-mahi, and a tarpon around
@@ -38,7 +38,7 @@ Sourced from the logo. Defined as CSS variables and Tailwind tokens in
 
 ## Logo usage
 
-- Master asset: `apps/website/public/brand/jt-tackle-logo.png`
+- Master asset: `apps/website/public/brand/tj-tackle-logo.png`
 - Give the crest breathing room; never place it on busy photography without a
   parchment or navy plate behind it.
 - On dark (navy) backgrounds, the parchment field of the logo provides its own

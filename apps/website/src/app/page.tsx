@@ -18,7 +18,7 @@ export default function HomePage() {
               <span className="text-copper">engineered for the bite.</span>
             </h1>
             <p className="mt-5 max-w-md text-lg text-ink/75">
-              J &amp; T Tackle designs, molds, and pours original soft-plastic
+              T&amp;J&apos;s Tackle designs, molds, and pours original soft-plastic
               lures in-house. No re-sold baits — every shape, action, and color
               is ours.
             </p>
@@ -40,8 +40,8 @@ export default function HomePage() {
           <div className="relative">
             <div className="mx-auto max-w-md rounded-2xl bg-parchment/70 p-6 shadow-crest ring-1 ring-navy/10">
               <Image
-                src="/brand/jt-tackle-logo.png"
-                alt="J & T Tackle crest"
+                src="/brand/tj-tackle-logo.png"
+                alt="T&amp;J&apos;s Tackle crest"
                 width={720}
                 height={380}
                 priority
@@ -122,7 +122,7 @@ export default function HomePage() {
           <div className="max-w-2xl">
             <p className="eyebrow !text-copper-200">Dealer program</p>
             <h2 className="mt-2 text-3xl text-parchment">
-              Stock J &amp; T Tackle in your shop
+              Stock T&amp;J&apos;s Tackle in your shop
             </h2>
             <p className="mt-3 text-parchment/80">
               Wholesale pricing, marketing assets, and restock support for tackle

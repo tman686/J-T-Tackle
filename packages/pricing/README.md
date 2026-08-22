@@ -1,6 +1,6 @@
 # @jt/pricing
 
-The unit-economics & pricing engine for J & T Tackle. Pure, dependency-free
+The unit-economics & pricing engine for T&J's Tackle. Pure, dependency-free
 TypeScript so it can run anywhere — the website, an internal margin tool, or a
 future admin app.
 

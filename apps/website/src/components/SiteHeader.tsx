@@ -18,16 +18,16 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-navy/10 bg-parchment/85 backdrop-blur">
       <div className="container-page flex items-center justify-between gap-4 py-3">
-        <Link href="/" className="flex items-center gap-3" aria-label="J & T Tackle home">
+        <Link href="/" className="flex items-center gap-3" aria-label="T&amp;J&apos;s Tackle home">
           <Image
-            src="/brand/jt-tackle-logo.png"
-            alt="J & T Tackle"
+            src="/brand/tj-tackle-logo.png"
+            alt="T&amp;J&apos;s Tackle"
             width={140}
             height={74}
             priority
             className="h-11 w-auto"
           />
-          <span className="sr-only">J &amp; T Tackle</span>
+          <span className="sr-only">T&amp;J&apos;s Tackle</span>
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">

@@ -1,5 +1,5 @@
 /**
- * Worked unit-economics examples for J & T Tackle products.
+ * Worked unit-economics examples for T&J's Tackle products.
  * These use realistic small-batch soft-plastics numbers so the pricing engine
  * produces meaningful figures for docs and the internal margin tooling.
  * Tune these as real supplier quotes and cycle times come in.

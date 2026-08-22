@@ -1,5 +1,5 @@
 /**
- * Prisma client singleton for J & T Tackle.
+ * Prisma client singleton for T&J's Tackle.
  *
  * Import `prisma` anywhere in the workspace. In development the instance is
  * cached on `globalThis` to survive hot-reload; in production a single client

@@ -1,4 +1,4 @@
-# Contributing to J & T Tackle
+# Contributing to T&J's Tackle
 
 ## Standards
 
@@ -6,7 +6,7 @@
 - **TypeScript strict** everywhere in app code.
 - **Formatting/linting** — ESLint + the framework defaults; keep CI green.
 - **Original work only** — never copy competitors' protected lure designs, brand
-  assets, or copy. All shapes, colors, and names must be original to J & T Tackle.
+  assets, or copy. All shapes, colors, and names must be original to T&J's Tackle.
 
 ## Branching
 

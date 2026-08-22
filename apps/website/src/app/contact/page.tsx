@@ -4,7 +4,7 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with J & T Tackle — support, warranty, wholesale inquiries, and pro-staff applications.",
+    "Get in touch with T&J's Tackle — support, warranty, wholesale inquiries, and pro-staff applications.",
 };
 
 export default function ContactPage() {
@@ -13,7 +13,7 @@ export default function ContactPage() {
       <div className="grid gap-10 lg:grid-cols-2">
         <div>
           <p className="eyebrow">We&apos;d love to hear from you</p>
-          <h1 className="mt-2 text-4xl text-navy">Contact J &amp; T Tackle</h1>
+          <h1 className="mt-2 text-4xl text-navy">Contact T&amp;J&apos;s Tackle</h1>
           <p className="mt-3 text-ink/70">
             Questions about a bait, a warranty claim, wholesale, or joining the
             field team? Send a note and we&apos;ll get back to you.

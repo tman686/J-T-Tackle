@@ -4,7 +4,7 @@ import { FindMyLure } from "@/components/FindMyLure";
 export const metadata: Metadata = {
   title: "Find My Lure",
   description:
-    "Answer a few questions about your water — species, clarity, season, and depth — and J & T Tackle will recommend the right soft plastic.",
+    "Answer a few questions about your water — species, clarity, season, and depth — and T&J's Tackle will recommend the right soft plastic.",
 };
 
 export default function FindMyLurePage() {
