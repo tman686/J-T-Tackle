@@ -313,7 +313,7 @@
         <h2>Built by anglers, poured in-house.</h2>
         <p>J &amp; T Tackle doesn't re-sell someone else's baits. Every shape, action and color is our own — molded and poured in-house for freshwater and saltwater. From the bass pond to the flats, we build baits we'd tie on ourselves, then tune them generation after generation from real days on the water.</p>
         <div class="facts">
-          <div class="fact"><div class="n">19+</div><div class="l">Original baits</div></div>
+          <div class="fact"><div class="n">30+</div><div class="l">Original baits</div></div>
           <div class="fact"><div class="n">2</div><div class="l">Fresh &amp; salt lines</div></div>
           <div class="fact"><div class="n">USA</div><div class="l">Poured &amp; molded</div></div>
         </div>
@@ -417,6 +417,26 @@
     { name: "Blowup Popper", type: "Hard", water: "Both", cat: "Topwater", price: 9.49, fast: false, colors: NAT.concat(SALT), species: ["Largemouth Bass","Redfish"], blurb: "Cupped-face popper that spits and chugs — morning and evening magic." },
     { name: "Lipless Rattler", type: "Hard", water: "Fresh", cat: "Lipless", price: 9.49, fast: false, colors: NAT.concat(REACT), species: ["Largemouth Bass","Striped Bass"], blurb: "Lipless rattlebait for covering water and ripping through grass." },
     { name: "Inshore Twitchbait", type: "Hard", water: "Salt", cat: "Jerkbait", price: 12.99, fast: false, colors: SALT, species: ["Snook","Speckled Trout","Redfish"], blurb: "Saltwater-tough twitchbait with rattles and strong hardware for inshore predators." },
+
+    // More freshwater soft plastics
+    { name: 'Fluke Jerk 5"', type: "Soft", water: "Fresh", cat: "Soft Jerkbait", price: 5.99, fast: true, colors: NAT.concat(SALT), species: ["Largemouth Bass","Striped Bass","Smallmouth Bass"], blurb: "Weightless soft jerkbait that darts and glides like a dying baitfish. Schooling-fish killer." },
+    { name: "Hollow Frog", type: "Soft", water: "Fresh", cat: "Frog", price: 7.49, fast: true, colors: NAT.concat(REACT), species: ["Largemouth Bass"], blurb: "Hollow-body walking frog for pads and slop — weedless with a heavy-cover hook-up ratio." },
+    { name: 'Ned Bug 2.75"', type: "Soft", water: "Fresh", cat: "Finesse", price: 5.49, fast: false, colors: NAT, species: ["Smallmouth Bass","Largemouth Bass","Crappie"], blurb: "Buoyant finesse bug for a Ned rig — stands up and quivers on a light mushroom head." },
+    { name: 'Tube Craw 4"', type: "Soft", water: "Fresh", cat: "Tube", price: 5.99, fast: false, colors: NAT.concat(REACT), species: ["Smallmouth Bass","Largemouth Bass"], blurb: "Hollow tube with a spiraling fall and flared tentacles. A smallmouth staple on rock." },
+    { name: 'Flick Grub 3"', type: "Soft", water: "Fresh", cat: "Grub", price: 4.99, fast: false, colors: NAT, species: ["Crappie","Largemouth Bass","Smallmouth Bass"], blurb: "Single-tail curl grub with a hard thumping kick on a jighead — panfish and bass alike." },
+
+    // More saltwater soft plastics
+    { name: 'Paddle Mullet 5"', type: "Soft", water: "Salt", cat: "Mullet", price: 7.49, fast: false, colors: SALT, species: ["Snook","Tarpon","Redfish"], blurb: "Bigger paddle-tail mullet for slot-plus fish keyed on full-grown bait." },
+    { name: 'Curl-Tail Grub 4"', type: "Soft", water: "Salt", cat: "Grub", price: 5.49, fast: false, colors: SALT, species: ["Speckled Trout","Flounder","Redfish"], blurb: "Salt-tough curl-tail on a jighead — bounce it on the bottom for trout and flounder." },
+    { name: "Sand Flea", type: "Soft", water: "Salt", cat: "Crab", price: 5.99, fast: false, colors: SALT, species: ["Sheepshead","Black Drum","Pompano"], blurb: "Sand-flea imitation for surf and structure feeders that root the bottom." },
+    { name: 'Marsh Jerk Shad 4"', type: "Soft", water: "Salt", cat: "Jerk Shad", price: 6.49, fast: false, colors: SALT, species: ["Speckled Trout","Redfish","Snook"], blurb: "Slimmed-down jerk shad for shallow marsh and grass flats — subtle, natural dart." },
+
+    // More hard baits
+    { name: "Vibe Blade", type: "Hard", water: "Both", cat: "Bladed Jig", price: 8.99, fast: true, colors: NAT.concat(SALT), species: ["Largemouth Bass","Snook","Striped Bass"], blurb: "Bladed swim-jig that hunts and thumps through grass — a year-round reaction bait." },
+    { name: "Flash Spinnerbait", type: "Hard", water: "Fresh", cat: "Spinnerbait", price: 9.49, fast: false, colors: NAT.concat(REACT), species: ["Largemouth Bass","Striped Bass"], blurb: "Willow/Colorado spinnerbait with a flashing blade for stained water and wind." },
+    { name: "Buzz Blade", type: "Hard", water: "Fresh", cat: "Buzzbait", price: 8.99, fast: false, colors: NAT.concat(REACT), species: ["Largemouth Bass"], blurb: "Clacking buzzbait that wakes the surface — the low-light power-fishing topwater." },
+    { name: 'Glide Swimmer 6"', type: "Hard", water: "Fresh", cat: "Glide Bait", price: 18.99, fast: false, colors: NAT.concat(REACT), species: ["Largemouth Bass","Pike"], blurb: "Hard glide bait with a wide S-track for trophy fish that want a big, slow meal." },
+    { name: "Flutter Spoon", type: "Hard", water: "Both", cat: "Spoon", price: 7.99, fast: false, colors: NAT.concat(SALT), species: ["Striped Bass","Speckled Trout","Largemouth Bass"], blurb: "Flashing flutter spoon for schooling fish — rip it, flutter it back, hang on." },
   ];
 
   // ---- Species bundle deals (bundle prices per fish) ----
@@ -429,6 +449,9 @@
     { species: "Largemouth Bass", name: "Bass Reaction Pack", items: ["Current Swimbait 4.5\"","Surface Strider","Lipless Rattler"], now: 25.99, was: 28.47 },
     { species: "Crappie & Panfish", name: "Panfish Pack", items: ["Drift Minnow 4\"","Bluegill Flick 3\""], now: 9.99, was: 11.48 },
     { species: "Big Bass", name: "Trophy Bass Pack", items: ["Ribbon-Tail 8\"","Deep Runner","Current Swimbait 4.5\""], now: 22.99, was: 24.47 },
+    { species: "Largemouth Bass", name: "Topwater Frenzy", items: ["Hollow Frog","Buzz Blade","Surface Strider"], now: 26.99, was: 29.97 },
+    { species: "Smallmouth Bass", name: "Finesse Smallmouth Pack", items: ["Ned Bug 2.75\"","Tube Craw 4\"","Drift Minnow 4\""], now: 15.99, was: 16.97 },
+    { species: "Flounder & Pompano", name: "Bottom Feeder Pack", items: ["Curl-Tail Grub 4\"","Sand Flea","Flats Shrimp 3\""], now: 15.99, was: 17.47 },
   ];
 
   const money = (n) => "$" + n.toFixed(2);
